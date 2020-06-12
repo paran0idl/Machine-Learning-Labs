@@ -1,0 +1,3 @@
+"0","data<-read.csv(""data/NIRSpectra.csv"",header = TRUE,sep="";"",dec = "","")"
+"0","data$Viscosity=c()"
+"0","res=prcomp(data)"

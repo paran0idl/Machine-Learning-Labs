@@ -1,0 +1,5 @@
+"0",""
+"0","prunedTree=prune.tree(tree_mod,best=3) "
+"0","pred=predict(prunedTree,data=data)"
+"0",""
+"0","ggplot()+geom_line(aes(x=c(1:length(pred)),y=pred),col=""red"")+geom_point(aes(x=c(1:length(data$EX)),y=data$EX),col=""blue"")"

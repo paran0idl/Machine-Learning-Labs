@@ -1,0 +1,3 @@
+"0","IC<-fastICA(data,n.comp = 2)"
+"0","new_W<-IC$K%*%IC$W"
+"0","plot(new_W[,1],main=""ICA Traceplot, PC1"")"

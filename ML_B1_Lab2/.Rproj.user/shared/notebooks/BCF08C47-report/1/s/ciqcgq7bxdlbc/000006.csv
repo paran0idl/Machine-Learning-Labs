@@ -1,0 +1,8 @@
+"0","# u=res$rotation"
+"0","# df<-data.frame(u1=u[,1],u2=u[,2],n=c(1:length(u[,1])))"
+"0","# ggplot(df,aes(x=n,y=u1))+geom_point(col=""white"")+geom_text(label=df$n,size=2)"
+"0","# ggplot(df,aes(x=n,y=u2))+geom_point(col=""white"")+geom_text(label=df$n,size=2)"
+"0","U <- res$rotation"
+"0","x <- 1:nrow(res$rotation)"
+"0","ggplot() + geom_point(aes(x=x, y=U[,1])) + ggtitle(""PCA - Traceplot PC1"") +"
+"0","    xlab(""Index"") + ylab(""Load"")"

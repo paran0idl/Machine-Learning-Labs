@@ -1,0 +1,13 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(readxl)"
+"0","library(tree)"
+"0","library(ggplot2)"
+"2","Registered S3 method overwritten by 'dplyr':
+  method           from
+  print.rowwise_df     
+"
+"0","library(boot)"
+"0","library(fastICA)"
+"0","RNGversion('3.5.1')"
+"2","non-uniform 'Rounding' sampler used"
+"0","set.seed(12345)"

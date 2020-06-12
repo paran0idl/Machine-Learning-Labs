@@ -1,0 +1,3 @@
+"0","tree_mod<-tree(EX~MET,data=data,control = tree.control(minsize = 8,nobs = nrow(data)))"
+"0","cv.res=cv.tree(tree_mod)"
+"0","plot(cv.res$size, cv.res$dev, type=""b"", col=""red"")"
